@@ -84,7 +84,6 @@ return ans
 - Time: O(n + m), where n = len(nums1), m = len(nums2)
 - Space: O(1) extra space
 
----
 
 ## Submission summary
 
