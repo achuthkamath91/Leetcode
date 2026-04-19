@@ -1,0 +1,70 @@
+# .gitignore for a mixed Java/IDE workspace (Windows / JetBrains / VSCode)
+# Ignore IDE folders
+.idea/
+*.iml
+.vscode/
+
+# Build output
+/bin/
+/build/
+/out/
+/target/
+
+# Compiled class files
+*.class
+
+# Java artifacts
+*.jar
+*.war
+*.ear
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+log/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OneDrive / sync files
+~$*
+~*.tmp
+*.lnk
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# Environment files
+.env
+
+# IntelliJ / JetBrains local settings
+out/
+
+# JetBrains project/workspace files
+workspace.xml
+
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln
+
+# keep this file tracked
+!/.gitignore
+
